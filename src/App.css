@@ -18,3 +18,81 @@
   letter-spacing: -1px;
   font-weight: 500;
 }
+
+.entry-container {
+  padding: 2rem 1rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.entry-container hr {
+  background-color: #F5F5F5;
+  height: 1px;
+  border: none;
+  margin: 1rem 0;
+}
+
+.entry-container hr:last-of-type {
+  display: none;
+}
+
+.entry {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.entry_image {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.entry_image img {
+  height: 100%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.entry_main {
+  flex: 1;
+}
+
+.entry_location-info {
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.entry_location img {
+  width: 7px;
+  margin-right: 4px;
+}
+
+.entry_location span {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.entry_mapsLink a {
+  color: #918E9B;
+}
+
+.entry_title h2 {
+  font-size: 25px;
+  margin-bottom: 0.75rem;
+  line-height: 120%;
+}
+
+.entry_duration {
+  font-size: 10px;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.entry_description {
+  font-size: 10px;
+}

@@ -4,7 +4,13 @@ import data from "../data.json"
 export default function EntryContainer() {
   const entries = data.map(entry => {
     return (
-      <Entry />
+      <>
+        <Entry
+          key={entry.id}
+          data={entry}
+        />
+        <hr />
+      </>
     )
   })
 
