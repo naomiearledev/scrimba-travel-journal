@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Iga-Ueno",
+    "location": "Japan",
+    "mapsLink": "https://goo.gl/maps/akDtM55MU1UsFW949",
+    "description": "Iga-Ueno is an area of Iga City in Mie prefecture, at the top of the Kii Peninsula. Iga-Ueno is famous as the birthplace of the haiku poet, Basho, for being one of the two foremost places in Japan where ninja were trained, and for its beautifully reconstructed Ueno Castle.",
+    "duration": {
+      "start": "27 July 2017",
+      "end": "30 July 2017"
+    },
+    "image": "iga-ueno.jpeg"
+  },
+  {
+    "id": 2,
+    "title": "Boracay",
+    "location": "Philippines",
+    "mapsLink": "https://goo.gl/maps/P7BsQbpiV8zWVpgz7",
+    "description": "Boracay Island, one of the top beaches in the Philippines and one of the best Visayas tourist spots, is blessed with a long stretch of powdery white sand beach (called White Beach), crystal clear and azure waters, and a stunning sunset.",
+    "duration": {
+      "start": "13 Aug 2017",
+      "end": "17 Aug 2017"
+    },
+    "image": "boracay.png"
+  },
+  {
+    "id": 3,
+    "title": "Bangkok",
+    "location": "Thailand",
+    "mapsLink": "https://goo.gl/maps/7LctXKq5cqzoUNDv9",
+    "description": "Bangkok, Thailand’s capital, is a large city known for ornate shrines and vibrant street life",
+    "duration": {
+      "start": "20 Apr 2016",
+      "end": "25 Apr 2016"
+    },
+    "image": "bangkok.jpeg"
+  }
+]
