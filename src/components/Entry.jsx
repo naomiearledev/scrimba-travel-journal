@@ -2,7 +2,7 @@ import PropTypes from "prop-types"
 import locationIcon from "../assets/images/location-icon.png"
 
 export default function Entry({ data }) {
-  const imgSrc = "../../public/" + data.image
+  const imgSrc = "../../" + data.image
   
   return (
     <div className="entry">
